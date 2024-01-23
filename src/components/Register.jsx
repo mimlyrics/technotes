@@ -48,6 +48,9 @@ const Register = () => {
             <input value={password} onChange={e=>setPassword(e.target.value)} type="password" className="border shadow rounded"/>
         </div>
         <button type="submit" className="p-2 border shadow rounded-md">Register</button>
+        <div className="p-2 bg-slate-200 my-2">
+            <h1>Git and Github Project</h1>
+        </div>
     </form>
     </section>
   )
