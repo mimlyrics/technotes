@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom";
 import axios from "axios";
 import { useEffect, useState } from "react";
-const BASE_URL = "http://localhost:5000/api/v1"
+const BASE_URL = "https://technotes-api.onrender.com";
 const DashBoard = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
